@@ -8,8 +8,8 @@
         "model-interface-pkg": "com.angularapp.core.models",
         "model-impl-pkg": "com.angularapp.core.models.impl"
     },
-    "name": "time-date",
-    "title": "Current Time Date",
+    "name": "footer-home",
+    "title": "Footer Component",
     "group": "Angular App - Content",
     "type": "components",
     "options": {

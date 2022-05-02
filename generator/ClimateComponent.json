@@ -9,7 +9,7 @@
         "model-impl-pkg": "com.angularapp.core.models.impl"
     },
     "name": "climate",
-    "title": "Angular - Climate Component",
+    "title": "Climate Component",
     "group": "Angular App - Content",
     "type": "components",
     "options": {

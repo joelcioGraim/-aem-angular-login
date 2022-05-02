@@ -1,3 +1,4 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SpaAngularEditableComponentsModule } from "@adobe/aem-angular-editable-components";
 import { APP_BASE_HREF } from "@angular/common";
 import { LOCALE_ID, NgModule } from "@angular/core";
@@ -24,10 +25,11 @@ import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-componen
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
 import { ButtonComponent } from './components/button/button.component';
 import { TimeDateComponent } from './components/time-date/time-date.component';
+import { ClimateComponent } from './components/climate/climate.component';
 
 import localePT from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
-import { ClimateComponent } from './components/climate/climate.component';
+import { FooterHomeComponent } from './components/footer-home/footer-home.component';
 registerLocaleData(localePT);
 
 @NgModule({
@@ -46,10 +48,11 @@ registerLocaleData(localePT);
     AemAngularCoreWcmComponentsAccordionV1,
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
+    HttpClientModule
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }, { provide: LOCALE_ID, useValue: 'pt-br' }],
-  declarations: [AppComponent, PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent],
-  entryComponents: [PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent],
+  declarations: [AppComponent, PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent, FooterHomeComponent],
+  entryComponents: [PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent, FooterHomeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

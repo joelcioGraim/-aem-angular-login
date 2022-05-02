@@ -20,7 +20,7 @@ package com.angularapp.core.models.impl;
 
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
-import com.angularapp.core.models.Climate;
+import com.angularapp.core.models.FooterHome;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Exporter;
@@ -30,12 +30,12 @@ import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 @Model(adaptables = {
     SlingHttpServletRequest.class
 }, adapters = {
-    Climate.class,
+    FooterHome.class,
     ComponentExporter.class
-}, resourceType = "angularapp/components/climate")
+}, resourceType = "angularapp/components/footer-home")
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
-public class ClimateImpl
-    implements Climate
+public class FooterHomeImpl
+    implements FooterHome
 {
 
     @SlingObject

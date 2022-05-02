@@ -1,18 +1,19 @@
 import { MapTo } from '@adobe/aem-angular-editable-components';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, DoCheck } from '@angular/core';
 
 @Component({
   selector: 'app-time-date',
   templateUrl: './time-date.component.html',
   styleUrls: ['./time-date.component.css']
 })
-export class TimeDateComponent implements OnInit {
+export class TimeDateComponent implements DoCheck {
 
-  @Input() timeDate = Date.now();
+  timeDate;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngDoCheck(): void {
+    this.timeDate = new Date();
   } 
 
 }

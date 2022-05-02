@@ -23,11 +23,11 @@ import org.osgi.annotation.versioning.ConsumerType;
 
 
 /**
- * Defines the {@code Climate} Sling Model used for the {@code angularapp/components/climate} component.
+ * Defines the {@code FooterHome} Sling Model used for the {@code angularapp/components/footer-home} component.
  * 
  */
 @ConsumerType
-public interface Climate
+public interface FooterHome
     extends ComponentExporter
 {
 

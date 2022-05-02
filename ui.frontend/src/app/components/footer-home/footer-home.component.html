@@ -1,0 +1,28 @@
+<footer class="footer-container">
+    <p class="footer footer__item--p-essa-janela">
+        Essa janela do navegador é usada para manter sua sessão de autenticação
+        ativa. Deixe-a aberta em segundo plano e abra uma nova janela para
+        continuar a navegar.
+    </p>
+
+    <div class="footer footer-vertical-line-before-search"></div>
+
+    <app-search class="footer footer__item--app-search"></app-search>
+
+    <div class="footer footer-vertical-line-after-search"></div>
+
+    <p class="footer footer__item--p-application-refresh">
+        Application refresh in
+    </p>
+
+    <app-counter class="footer footer__item--app-counter"></app-counter>
+
+    <a
+        class="footer footer__item--a-continuar-navegando"
+        (click)="keepBrowsing()"
+    >
+        Continuar navegando
+    </a>
+
+    <a class="footer" (click)="logout()">logout</a>
+</footer>

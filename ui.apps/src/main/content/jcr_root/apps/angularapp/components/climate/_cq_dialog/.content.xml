@@ -22,5 +22,5 @@
           xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           jcr:primaryType="nt:unstructured"
-          jcr:title="Angular - Climate Component"
+          jcr:title="Climate Component"
           sling:resourceType="cq/gui/components/authoring/dialog"/>
