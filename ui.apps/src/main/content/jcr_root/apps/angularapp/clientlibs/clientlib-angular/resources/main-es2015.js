@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-container\">\n    <p class=\"footer footer__item--p-essa-janela\">\n        Essa janela do navegador é usada para manter sua sessão de autenticação\n        ativa. Deixe-a aberta em segundo plano e abra uma nova janela para\n        continuar a navegar.\n    </p>\n\n    <div class=\"footer footer-vertical-line-before-search\"></div>\n\n    <app-search class=\"footer footer__item--app-search\"></app-search>\n\n    <div class=\"footer footer-vertical-line-after-search\"></div>\n\n    <p class=\"footer footer__item--p-application-refresh\">\n        Application refresh in\n    </p>\n\n    <app-counter class=\"footer footer__item--app-counter\"></app-counter>\n\n    <a\n        class=\"footer footer__item--a-continuar-navegando\"\n        (click)=\"keepBrowsing()\"\n    >\n        Continuar navegando\n    </a>\n\n    <a class=\"footer\" (click)=\"logout()\">logout</a>\n</footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-container\">\n    <p class=\"footer footer__item--p-essa-janela\">\n        Essa janela do navegador é usada para manter sua sessão de autenticação\n        ativa. Deixe-a aberta em segundo plano e abra uma nova janela para\n        continuar a navegar.\n    </p>\n\n    <div class=\"footer footer-vertical-line-before-search\"></div>\n\n    <p class=\"footer footer__item--p-application-refresh\">\n        Application refresh in\n    </p>\n\n    <app-timer class=\"footer footer__item--app-counter\"></app-timer>\n\n    <a\n        class=\"footer footer__item--a-continuar-navegando\"\n        (click)=\"keepBrowsing()\"\n    >\n        Continuar navegando\n    </a>\n\n    <a class=\"footer\" (click)=\"logout()\">logout</a>\n</footer>\n");
 
 /***/ }),
 
@@ -98,6 +98,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"div-container\">\n    <div class=\"current-time\">{{ timeDate | date:'shortTime' }}</div>\n    <div class=\"current-date\">{{ timeDate | date:'fullDate': ' ': 'pt-BR' }}</div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/timer/timer.component.html":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/timer/timer.component.html ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <div class=\"counter-item counter-item__span-number-seconds\">\n        {{ currentValue }}\n    </div>\n    <div class=\"counter-item counter-item__span-text-seconds\">seconds</div>\n</div>\n");
 
 /***/ }),
 
@@ -253,6 +266,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/common/locales/pt */ "./node_modules/@angular/common/locales/pt.js");
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25__);
 /* harmony import */ var _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/footer-home/footer-home.component */ "./src/app/components/footer-home/footer-home.component.ts");
+/* harmony import */ var _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/timer/timer.component */ "./src/app/components/timer/timer.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+
 
 
 
@@ -282,6 +299,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25___default.a);
+
+
 let AppModule = class AppModule {
 };
 AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
@@ -301,11 +320,28 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
             _adobe_aem_core_components_angular_spa_containers_accordion_v1__WEBPACK_IMPORTED_MODULE_20__["AemAngularCoreWcmComponentsAccordionV1"],
             _adobe_aem_core_components_angular_base_authoring_separator_v1__WEBPACK_IMPORTED_MODULE_19__["AemAngularCoreWcmComponentsSeparatorV1"],
             _adobe_aem_core_components_angular_base_layout_language_navigation_v1__WEBPACK_IMPORTED_MODULE_21__["AemAngularCoreWcmComponentsLanguageNavigationV1"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"]
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_28__["BrowserAnimationsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_29__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_29__["ReactiveFormsModule"],
         ],
         providers: [_components_model_manager_service__WEBPACK_IMPORTED_MODULE_9__["ModelManagerService"], { provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["APP_BASE_HREF"], useValue: "/" }, { provide: _angular_core__WEBPACK_IMPORTED_MODULE_4__["LOCALE_ID"], useValue: 'pt-br' }],
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"]],
-        entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"]],
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+            _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"],
+            _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"],
+            _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"],
+            _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"],
+            _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"],
+            _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_27__["TimerComponent"]
+        ],
+        entryComponents: [
+            _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"],
+            _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"],
+            _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"],
+            _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"],
+            _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"]
+        ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]],
     })
 ], AppModule);
@@ -478,25 +514,51 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterHomeComponent", function() { return FooterHomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @adobe/aem-angular-editable-components */ "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+/* harmony import */ var _timer_timer_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../timer/timer.component */ "./src/app/components/timer/timer.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @adobe/aem-angular-editable-components */ "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+
 
 
 
 let FooterHomeComponent = class FooterHomeComponent {
-    constructor() { }
-    ngOnInit() {
+    constructor(router) {
+        this.router = router;
+        this.counterState = 'counter is ticking';
+    }
+    ngOnInit() { }
+    ngAfterViewInit() {
+        this.counter.startAt = 600;
+        this.counter.start();
+    }
+    keepBrowsing() {
+        this.counter.reset = true;
+        this.counter.stop();
+        this.counter.start();
+    }
+    logout() {
+        this.counter.stop();
+        // this.router.navigate(['/content/angularapp/us/en/login.html']);
+        this.router.navigate(['/content/angularapp/us/en/not-found.html']);
     }
 };
+FooterHomeComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] }
+];
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"])(_timer_timer_component__WEBPACK_IMPORTED_MODULE_1__["TimerComponent"], { static: false })
+], FooterHomeComponent.prototype, "counter", void 0);
 FooterHomeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-footer-home',
         template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./footer-home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer-home/footer-home.component.html")).default,
         styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./footer-home.component.css */ "./src/app/components/footer-home/footer-home.component.css")).default]
     })
 ], FooterHomeComponent);
 
-Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["MapTo"])('angularapp/components/footer-home')(FooterHomeComponent);
+Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_3__["MapTo"])('angularapp/components/footer-home')(FooterHomeComponent);
 
 
 /***/ }),
@@ -749,6 +811,136 @@ TimeDateComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 ], TimeDateComponent);
 
 Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["MapTo"])('angularapp/components/time-date')(TimeDateComponent);
+
+
+/***/ }),
+
+/***/ "./src/app/components/timer/timer.component.css":
+/*!******************************************************!*\
+  !*** ./src/app/components/timer/timer.component.css ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGltZXIvdGltZXIuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/timer/timer.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/components/timer/timer.component.ts ***!
+  \*****************************************************/
+/*! exports provided: TimerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimerComponent", function() { return TimerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/services/local-storage.service */ "./src/app/services/local-storage.service.ts");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+
+
+
+
+
+
+let TimerComponent = class TimerComponent {
+    constructor(changeDetector, router, localStorageService) {
+        this.changeDetector = changeDetector;
+        this.router = router;
+        this.localStorageService = localStorageService;
+        this.counterState = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.reset = false;
+    }
+    ngOnInit() { }
+    start() {
+        const time = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
+        this.currentValue = this.startAt;
+        this.changeDetector.detectChanges();
+        this.currentSubscription = time
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["take"])(this.startAt), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])((v) => this.startAt - (v + 1)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["finalize"])(() => {
+            if (!this.reset) {
+                this.stop();
+                this.localStorageService.clear();
+                this.router.navigate([
+                    '/content/angularapp/us/en/not-found.html',
+                ]);
+            }
+        }))
+            .subscribe((value) => {
+            this.reset = false;
+            this.currentValue = value;
+            this.changeDetector.detectChanges();
+        });
+    }
+    stop() {
+        this.currentSubscription.unsubscribe();
+    }
+};
+TimerComponent.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
+    { type: src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_4__["LocalStorageService"] }
+];
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], TimerComponent.prototype, "startAt", void 0);
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])()
+], TimerComponent.prototype, "counterState", void 0);
+TimerComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-timer',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./timer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/timer/timer.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./timer.component.css */ "./src/app/components/timer/timer.component.css")).default]
+    })
+], TimerComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/local-storage.service.ts":
+/*!***************************************************!*\
+  !*** ./src/app/services/local-storage.service.ts ***!
+  \***************************************************/
+/*! exports provided: LocalStorageService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocalStorageService", function() { return LocalStorageService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+let LocalStorageService = class LocalStorageService {
+    constructor() { }
+    add(key, value) {
+        localStorage.setItem(key, value);
+    }
+    remove(key) {
+        localStorage.removeItem(key);
+    }
+    get(key) {
+        return localStorage.getItem(key);
+    }
+    clear() {
+        localStorage.clear();
+    }
+};
+LocalStorageService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], LocalStorageService);
+
 
 
 /***/ }),

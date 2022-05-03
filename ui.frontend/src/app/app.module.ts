@@ -30,11 +30,16 @@ import { ClimateComponent } from './components/climate/climate.component';
 import localePT from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { FooterHomeComponent } from './components/footer-home/footer-home.component';
+import { TimerComponent } from './components/timer/timer.component';
 registerLocaleData(localePT);
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   imports: [
-    BrowserModule,
+    BrowserModule,   
     SpaAngularEditableComponentsModule,
     AppRoutingModule,
     AemAngularCoreWcmComponentsTabsV1,
@@ -48,11 +53,28 @@ registerLocaleData(localePT);
     AemAngularCoreWcmComponentsAccordionV1,
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }, { provide: LOCALE_ID, useValue: 'pt-br' }],
-  declarations: [AppComponent, PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent, FooterHomeComponent],
-  entryComponents: [PageComponent, ButtonComponent, TimeDateComponent, ClimateComponent, FooterHomeComponent],
+  declarations: [
+    AppComponent, 
+    PageComponent, 
+    ButtonComponent, 
+    TimeDateComponent, 
+    ClimateComponent, 
+    FooterHomeComponent, 
+    TimerComponent
+  ],
+  entryComponents: [
+    PageComponent, 
+    ButtonComponent, 
+    TimeDateComponent, 
+    ClimateComponent, 
+    FooterHomeComponent
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
