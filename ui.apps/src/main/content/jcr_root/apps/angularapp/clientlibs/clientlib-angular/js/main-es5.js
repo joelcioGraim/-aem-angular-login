@@ -116,6 +116,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/input/input.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/input/input.component.html ***!
+    \*********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsInputInputComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"input__div\">\n    <mat-icon aria-hidden=\"false\" aria-label=\"inpu icons\">\n        {{ icon }}\n    </mat-icon>\n    <input\n        class=\"input__input\"\n        [type]=\"type\"\n        [name]=\"name\"\n        [placeholder]=\"placeholder\"\n        [(ngModel)]=\"value\"\n        (ngModelChange)=\"onChange($event)\"\n        required\n    />\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/page/page.component.html":
   /*!*******************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/page/page.component.html ***!
@@ -266,22 +286,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/app.component.css":
-  /*!***********************************!*\
-    !*** ./src/app/app.component.css ***!
-    \***********************************/
+  "./src/app/app.component.scss":
+  /*!************************************!*\
+    !*** ./src/app/app.component.scss ***!
+    \************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppAppComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAppComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */";
     /***/
   },
 
@@ -353,8 +373,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./app.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./app.component.css */
-      "./src/app/app.component.css"))["default"]]
+      /*! ./app.component.scss */
+      "./src/app/app.component.scss"))["default"]]
     })], AppComponent);
     /***/
   },
@@ -562,6 +582,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_forms__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _components_input_input_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    /*! ./components/input/input.component */
+    "./src/app/components/input/input.component.ts");
 
     Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25___default.a);
 
@@ -578,30 +604,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         provide: _angular_core__WEBPACK_IMPORTED_MODULE_4__["LOCALE_ID"],
         useValue: 'pt-br'
       }],
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"], _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_27__["TimerComponent"]],
-      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"], _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_27__["TimerComponent"], _components_input_input_component__WEBPACK_IMPORTED_MODULE_30__["InputComponent"]],
+      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_26__["FooterHomeComponent"], _components_input_input_component__WEBPACK_IMPORTED_MODULE_30__["InputComponent"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })], AppModule);
     /***/
   },
 
   /***/
-  "./src/app/components/button/button.component.css":
-  /*!********************************************************!*\
-    !*** ./src/app/components/button/button.component.css ***!
-    \********************************************************/
+  "./src/app/components/button/button.component.scss":
+  /*!*********************************************************!*\
+    !*** ./src/app/components/button/button.component.scss ***!
+    \*********************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsButtonButtonComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsButtonButtonComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "div {\r\n    /* Rectangle 71 */\r\n   display: flex; \r\n   width: 216px;\r\n   height: 68px;\r\n   left: 740px;\r\n   margin-top: 10%;\r\n   margin-bottom: 15%;\r\n   \r\n   /* Gray 1 */\r\n   background: #333333;\r\n}\r\n\r\nbutton {\r\n    margin-top: 10%;\r\n    margin-left: 15%;\r\n    height: 40%;\r\n    width: 69%;\r\n    background-color: #333;\r\n    border: none;\r\n    color: white;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vYnV0dG9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7R0FDbEIsYUFBYTtHQUNiLFlBQVk7R0FDWixZQUFZO0dBQ1osV0FBVztHQUNYLGVBQWU7R0FDZixrQkFBa0I7O0dBRWxCLFdBQVc7R0FDWCxtQkFBbUI7QUFDdEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxVQUFVO0lBQ1Ysc0JBQXNCO0lBQ3RCLFlBQVk7SUFDWixZQUFZO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vYnV0dG9uLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xyXG4gICAgLyogUmVjdGFuZ2xlIDcxICovXHJcbiAgIGRpc3BsYXk6IGZsZXg7IFxyXG4gICB3aWR0aDogMjE2cHg7XHJcbiAgIGhlaWdodDogNjhweDtcclxuICAgbGVmdDogNzQwcHg7XHJcbiAgIG1hcmdpbi10b3A6IDEwJTtcclxuICAgbWFyZ2luLWJvdHRvbTogMTUlO1xyXG4gICBcclxuICAgLyogR3JheSAxICovXHJcbiAgIGJhY2tncm91bmQ6ICMzMzMzMzM7XHJcbn1cclxuXHJcbmJ1dHRvbiB7XHJcbiAgICBtYXJnaW4tdG9wOiAxMCU7XHJcbiAgICBtYXJnaW4tbGVmdDogMTUlO1xyXG4gICAgaGVpZ2h0OiA0MCU7XHJcbiAgICB3aWR0aDogNjklO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufSJdfQ== */";
+    __webpack_exports__["default"] = "div {\n  /* Rectangle 71 */\n  display: flex;\n  width: 216px;\n  height: 68px;\n  left: 740px;\n  margin-top: 10%;\n  margin-bottom: 15%;\n  /* Gray 1 */\n  background: #333333;\n}\n\nbutton {\n  margin-top: 10%;\n  margin-left: 15%;\n  height: 40%;\n  width: 69%;\n  background-color: #333;\n  border: none;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vQzpcXFByb2pldG9zQWRvYmVcXGFlbS5hbmd1bGFyLmxvZ2luXFx1aS5mcm9udGVuZC9zcmNcXGFwcFxcY29tcG9uZW50c1xcYnV0dG9uXFxidXR0b24uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9uL2J1dHRvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGlCQUFBO0VBQ0QsYUFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUVBLFdBQUE7RUFDQSxtQkFBQTtBQ0FIOztBREdBO0VBQ0ksZUFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0FDQUoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2J1dHRvbi9idXR0b24uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xyXG4gICAgLyogUmVjdGFuZ2xlIDcxICovXHJcbiAgIGRpc3BsYXk6IGZsZXg7IFxyXG4gICB3aWR0aDogMjE2cHg7XHJcbiAgIGhlaWdodDogNjhweDtcclxuICAgbGVmdDogNzQwcHg7XHJcbiAgIG1hcmdpbi10b3A6IDEwJTtcclxuICAgbWFyZ2luLWJvdHRvbTogMTUlO1xyXG4gICBcclxuICAgLyogR3JheSAxICovXHJcbiAgIGJhY2tncm91bmQ6ICMzMzMzMzM7XHJcbn1cclxuXHJcbmJ1dHRvbiB7XHJcbiAgICBtYXJnaW4tdG9wOiAxMCU7XHJcbiAgICBtYXJnaW4tbGVmdDogMTUlO1xyXG4gICAgaGVpZ2h0OiA0MCU7XHJcbiAgICB3aWR0aDogNjklO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufSIsImRpdiB7XG4gIC8qIFJlY3RhbmdsZSA3MSAqL1xuICBkaXNwbGF5OiBmbGV4O1xuICB3aWR0aDogMjE2cHg7XG4gIGhlaWdodDogNjhweDtcbiAgbGVmdDogNzQwcHg7XG4gIG1hcmdpbi10b3A6IDEwJTtcbiAgbWFyZ2luLWJvdHRvbTogMTUlO1xuICAvKiBHcmF5IDEgKi9cbiAgYmFja2dyb3VuZDogIzMzMzMzMztcbn1cblxuYnV0dG9uIHtcbiAgbWFyZ2luLXRvcDogMTAlO1xuICBtYXJnaW4tbGVmdDogMTUlO1xuICBoZWlnaHQ6IDQwJTtcbiAgd2lkdGg6IDY5JTtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbiAgYm9yZGVyOiBub25lO1xuICBjb2xvcjogd2hpdGU7XG59Il19 */";
     /***/
   },
 
@@ -682,30 +708,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./button.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/button/button.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./button.component.css */
-      "./src/app/components/button/button.component.css"))["default"]]
+      /*! ./button.component.scss */
+      "./src/app/components/button/button.component.scss"))["default"]]
     })], ButtonComponent);
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["MapTo"])('angularapp/components/button')(ButtonComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/climate/climate.component.css":
-  /*!**********************************************************!*\
-    !*** ./src/app/components/climate/climate.component.css ***!
-    \**********************************************************/
+  "./src/app/components/climate/climate.component.scss":
+  /*!***********************************************************!*\
+    !*** ./src/app/components/climate/climate.component.scss ***!
+    \***********************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsClimateClimateComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsClimateClimateComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2xpbWF0ZS9jbGltYXRlLmNvbXBvbmVudC5jc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2xpbWF0ZS9jbGltYXRlLmNvbXBvbmVudC5zY3NzIn0= */";
     /***/
   },
 
@@ -809,8 +835,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./climate.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/climate/climate.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./climate.component.css */
-      "./src/app/components/climate/climate.component.css"))["default"]]
+      /*! ./climate.component.scss */
+      "./src/app/components/climate/climate.component.scss"))["default"]]
     })], ClimateComponent);
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_3__["MapTo"])('angularapp/components/climate')(ClimateComponent);
     /***/
@@ -841,22 +867,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/footer-home/footer-home.component.css":
-  /*!******************************************************************!*\
-    !*** ./src/app/components/footer-home/footer-home.component.css ***!
-    \******************************************************************/
+  "./src/app/components/footer-home/footer-home.component.scss":
+  /*!*******************************************************************!*\
+    !*** ./src/app/components/footer-home/footer-home.component.scss ***!
+    \*******************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsFooterHomeFooterHomeComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsFooterHomeFooterHomeComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZm9vdGVyLWhvbWUvZm9vdGVyLWhvbWUuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZm9vdGVyLWhvbWUvZm9vdGVyLWhvbWUuY29tcG9uZW50LnNjc3MifQ== */";
     /***/
   },
 
@@ -961,8 +987,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./footer-home.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer-home/footer-home.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./footer-home.component.css */
-      "./src/app/components/footer-home/footer-home.component.css"))["default"]]
+      /*! ./footer-home.component.scss */
+      "./src/app/components/footer-home/footer-home.component.scss"))["default"]]
     })], FooterHomeComponent);
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_3__["MapTo"])('angularapp/components/footer-home')(FooterHomeComponent);
     /***/
@@ -1187,6 +1213,135 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/input/input.component.scss":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/input/input.component.scss ***!
+    \*******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsInputInputComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW5wdXQvaW5wdXQuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/input/input.component.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/components/input/input.component.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: InputComponent */
+
+  /***/
+  function srcAppComponentsInputInputComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "InputComponent", function () {
+      return InputComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @adobe/aem-angular-editable-components */
+    "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/services/local-storage.service */
+    "./src/app/services/local-storage.service.ts");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+
+    var InputComponent = /*#__PURE__*/function () {
+      function InputComponent(localStorageService) {
+        _classCallCheck(this, InputComponent);
+
+        this.localStorageService = localStorageService;
+        this.valueChanged = new rxjs__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+      }
+
+      _createClass(InputComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          var _this3 = this;
+
+          this.name = this.type === 'text' ? 'username' : 'password';
+          this.icon = this.type === 'text' ? 'person' : 'lock';
+          this.localStorageService.clear();
+          this.valueChanged.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["debounceTime"])(1000), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["distinctUntilChanged"])()).subscribe(function (model) {
+            _this3.value = model;
+
+            _this3.localStorageService.add(_this3.name, _this3.value);
+          });
+        }
+      }, {
+        key: "onChange",
+        value: function onChange(value) {
+          this.valueChanged.next(value);
+        }
+      }]);
+
+      return InputComponent;
+    }();
+
+    InputComponent.ctorParameters = function () {
+      return [{
+        type: src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_3__["LocalStorageService"]
+      }];
+    };
+
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])()], InputComponent.prototype, "type", void 0);
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])()], InputComponent.prototype, "placeholder", void 0);
+    InputComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+      selector: 'app-input',
+      template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! raw-loader!./input.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/input/input.component.html"))["default"],
+      styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! ./input.component.scss */
+      "./src/app/components/input/input.component.scss"))["default"]]
+    })], InputComponent);
+    Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["MapTo"])('angularapp/components/input')(InputComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/components/model-manager.service.ts":
   /*!*****************************************************!*\
     !*** ./src/app/components/model-manager.service.ts ***!
@@ -1248,22 +1403,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/page/page.component.css":
-  /*!****************************************************!*\
-    !*** ./src/app/components/page/page.component.css ***!
-    \****************************************************/
+  "./src/app/components/page/page.component.scss":
+  /*!*****************************************************!*\
+    !*** ./src/app/components/page/page.component.scss ***!
+    \*****************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsPagePageComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsPagePageComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZS9wYWdlLmNvbXBvbmVudC5jc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZS9wYWdlLmNvbXBvbmVudC5zY3NzIn0= */";
     /***/
   },
 
@@ -1318,7 +1473,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/components/model-manager.service.ts");
 
     var PageComponent = /*#__PURE__*/_createClass(function PageComponent(route, modelManagerService) {
-      var _this3 = this;
+      var _this4 = this;
 
       _classCallCheck(this, PageComponent);
 
@@ -1327,9 +1482,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       this.modelManagerService.getData({
         path: this.route.snapshot.data.path
       }).then(function (data) {
-        _this3.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
-        _this3.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
-        _this3.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
+        _this4.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
+        _this4.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
+        _this4.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
       });
     });
 
@@ -1347,8 +1502,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./page.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/page/page.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./page.component.css */
-      "./src/app/components/page/page.component.css"))["default"]]
+      /*! ./page.component.scss */
+      "./src/app/components/page/page.component.scss"))["default"]]
     })], PageComponent);
     /***/
   },
@@ -1378,22 +1533,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/time-date/time-date.component.css":
-  /*!**************************************************************!*\
-    !*** ./src/app/components/time-date/time-date.component.css ***!
-    \**************************************************************/
+  "./src/app/components/time-date/time-date.component.scss":
+  /*!***************************************************************!*\
+    !*** ./src/app/components/time-date/time-date.component.scss ***!
+    \***************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsTimeDateTimeDateComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsTimeDateTimeDateComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGltZS1kYXRlL3RpbWUtZGF0ZS5jb21wb25lbnQuY3NzIn0= */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGltZS1kYXRlL3RpbWUtZGF0ZS5jb21wb25lbnQuc2NzcyJ9 */";
     /***/
   },
 
@@ -1456,30 +1611,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./time-date.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/time-date/time-date.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./time-date.component.css */
-      "./src/app/components/time-date/time-date.component.css"))["default"]]
+      /*! ./time-date.component.scss */
+      "./src/app/components/time-date/time-date.component.scss"))["default"]]
     })], TimeDateComponent);
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["MapTo"])('angularapp/components/time-date')(TimeDateComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/timer/timer.component.css":
-  /*!******************************************************!*\
-    !*** ./src/app/components/timer/timer.component.css ***!
-    \******************************************************/
+  "./src/app/components/timer/timer.component.scss":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/timer/timer.component.scss ***!
+    \*******************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsTimerTimerComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppComponentsTimerTimerComponentScss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGltZXIvdGltZXIuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGltZXIvdGltZXIuY29tcG9uZW50LnNjc3MifQ== */";
     /***/
   },
 
@@ -1556,26 +1711,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "start",
         value: function start() {
-          var _this4 = this;
+          var _this5 = this;
 
           var time = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
           this.currentValue = this.startAt;
           this.changeDetector.detectChanges();
           this.currentSubscription = time.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["take"])(this.startAt), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (v) {
-            return _this4.startAt - (v + 1);
+            return _this5.startAt - (v + 1);
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["finalize"])(function () {
-            if (!_this4.reset) {
-              _this4.stop();
+            if (!_this5.reset) {
+              _this5.stop();
 
-              _this4.localStorageService.clear();
+              _this5.localStorageService.clear();
 
-              _this4.router.navigate(['/content/angularapp/us/en/not-found.html']);
+              _this5.router.navigate(['/content/angularapp/us/en/not-found.html']);
             }
           })).subscribe(function (value) {
-            _this4.reset = false;
-            _this4.currentValue = value;
+            _this5.reset = false;
+            _this5.currentValue = value;
 
-            _this4.changeDetector.detectChanges();
+            _this5.changeDetector.detectChanges();
           });
         }
       }, {
@@ -1606,8 +1761,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! raw-loader!./timer.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/timer/timer.component.html"))["default"],
       styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
-      /*! ./timer.component.css */
-      "./src/app/components/timer/timer.component.css"))["default"]]
+      /*! ./timer.component.scss */
+      "./src/app/components/timer/timer.component.scss"))["default"]]
     })], TimerComponent);
     /***/
   },

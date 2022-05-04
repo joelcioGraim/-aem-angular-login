@@ -35,6 +35,7 @@ registerLocaleData(localePT);
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InputComponent } from './components/input/input.component';
 
 
 @NgModule({
@@ -66,14 +67,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TimeDateComponent, 
     ClimateComponent, 
     FooterHomeComponent, 
-    TimerComponent
+    TimerComponent, 
+    InputComponent,
+
   ],
   entryComponents: [
     PageComponent, 
     ButtonComponent, 
     TimeDateComponent, 
     ClimateComponent, 
-    FooterHomeComponent
+    FooterHomeComponent,
+    InputComponent,
   ],
   bootstrap: [AppComponent],
 })

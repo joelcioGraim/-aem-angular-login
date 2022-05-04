@@ -7,7 +7,7 @@ const URL_OPEN_WEATHER_ICON = '';
 @Component({
   selector: 'app-climate',
   templateUrl: './climate.component.html',
-  styleUrls: ['./climate.component.css']
+  styleUrls: ['./climate.component.scss']
 })
 export class ClimateComponent implements OnInit {
   weather = {};

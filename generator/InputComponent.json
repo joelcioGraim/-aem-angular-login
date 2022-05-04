@@ -1,0 +1,67 @@
+{
+    "project-settings": {
+        "code-owner": "Angular App",
+        "bundle-path": "../core/src/main/java",
+        "test-path": "../core/src/test/java",
+        "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+        "component-path": "angularapp",
+        "model-interface-pkg": "com.angularapp.core.models",
+        "model-impl-pkg": "com.angularapp.core.models.impl"
+    },
+    "name": "input",
+    "title": "Input Component",
+    "group": "Angular App - Content",
+    "type": "components",
+    "options": {
+        "js": false,
+        "jstxt": false,
+        "css": false,
+        "csstxt": false,
+        "html": false,
+        "html-content": false,
+        "slingmodel": true,
+        "testclass": false,
+        "junit-major-version": 5,
+        "content-exporter": true,
+        "model-adaptables": ["request"],
+        "generic-javadoc": false,
+        "properties": [
+            {
+                "field": "type",
+                "label": "type",
+                "type": "radiogroup",
+                "json-expose": true,
+                "json-property": "type",
+                "items": [
+                    {
+                        "field": "text",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}false",
+                            "name": "type",
+                            "text": "text",
+                            "value": "text"
+                        }
+                    },
+                    {
+                        "field": "password",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}false",
+                            "name": "type",
+                            "text": "password",
+                            "value": "password"
+                        }
+                    }
+                ]
+            },
+            {
+                "field": "placeholder",
+                "label": "placeholder",
+                "type": "textfield",
+                "json-expose": true,
+                "json-property": "placeholder"
+            }
+        ]
+    }
+}

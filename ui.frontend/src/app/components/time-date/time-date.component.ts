@@ -4,7 +4,7 @@ import { Component, DoCheck } from '@angular/core';
 @Component({
   selector: 'app-time-date',
   templateUrl: './time-date.component.html',
-  styleUrls: ['./time-date.component.css']
+  styleUrls: ['./time-date.component.scss']
 })
 export class TimeDateComponent implements DoCheck {
 
