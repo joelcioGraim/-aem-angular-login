@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n <button>{{ text }}</button>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n <button (click) = \"goHomePage()\">{{ text }}</button>\n</div>\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"div-container\">\n    <div class=\"city\">{{ locale }}</div>\n    <div class=\"container-icon-temp\">\n        <img class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"div-container\">\n    <div class=\"city\">{{ locale }}</div>\n    <div class=\"container-icon-temp\">\n        <img id=\"icon-weather\" class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -376,14 +376,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @adobe/aem-angular-editable-components */ "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
 let ButtonComponent = class ButtonComponent {
-    constructor() { }
+    constructor(router) {
+        this.router = router;
+    }
     ngOnInit() {
     }
+    goHomePage() {
+        this.router.navigate(['/content/angularapp/us/en/home.html']);
+    }
 };
+ButtonComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] }
+];
 Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
 ], ButtonComponent.prototype, "text", void 0);

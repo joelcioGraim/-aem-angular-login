@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MapTo } from '@adobe/aem-angular-editable-components';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-button',
@@ -9,9 +10,13 @@ import { MapTo } from '@adobe/aem-angular-editable-components';
 export class ButtonComponent implements OnInit {
   @Input() text:string;  
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
+  }
+
+  goHomePage(): void {
+    this.router.navigate(['/content/angularapp/us/en/home.html']);
   }
 
 }

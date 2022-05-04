@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n <button>{{ text }}</button>\n</div>\n";
+    __webpack_exports__["default"] = "<div>\n <button (click) = \"goHomePage()\">{{ text }}</button>\n</div>\n";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"div-container\">\n    <div class=\"city\">{{ locale }}</div>\n    <div class=\"container-icon-temp\">\n        <img class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div class=\"div-container\">\n    <div class=\"city\">{{ locale }}</div>\n    <div class=\"container-icon-temp\">\n        <img id=\"icon-weather\" class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>";
     /***/
   },
 
@@ -642,19 +642,38 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @adobe/aem-angular-editable-components */
     "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var ButtonComponent = /*#__PURE__*/function () {
-      function ButtonComponent() {
+      function ButtonComponent(router) {
         _classCallCheck(this, ButtonComponent);
+
+        this.router = router;
       }
 
       _createClass(ButtonComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
+      }, {
+        key: "goHomePage",
+        value: function goHomePage() {
+          this.router.navigate(['/content/angularapp/us/en/home.html']);
+        }
       }]);
 
       return ButtonComponent;
     }();
+
+    ButtonComponent.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }];
+    };
 
     Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], ButtonComponent.prototype, "text", void 0);
     ButtonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({

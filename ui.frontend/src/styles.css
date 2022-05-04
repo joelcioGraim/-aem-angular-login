@@ -74,7 +74,7 @@ body {
   margin-top: 80px;
 }
 
-.home-img-logo, img {
+.home-img-logo {
   width: 55% !important;
 }
 
@@ -271,13 +271,12 @@ body {
   }
 
   .home-img-logo, img {
-    width: 70% !important;
     margin-top: 11% !important;
 }
 
   .home-img-ball {
     position: absolute;
-    width: 500px;
+    width: 580px;
   }
 
   .footer-container {
