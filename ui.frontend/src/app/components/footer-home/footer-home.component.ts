@@ -32,8 +32,7 @@ export class FooterHomeComponent implements OnInit, AfterViewInit {
 
     logout(): void {
         this.counter.stop();
-        // this.router.navigate(['/content/angularapp/us/en/login.html']);
-        this.router.navigate(['/content/angularapp/us/en/not-found.html']);
+        this.router.navigate(['/content/angularapp/us/en/login.html']);
     }
 
 }

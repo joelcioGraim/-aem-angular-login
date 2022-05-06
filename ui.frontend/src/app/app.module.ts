@@ -1,4 +1,4 @@
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { SpaAngularEditableComponentsModule } from "@adobe/aem-angular-editable-components";
 import { APP_BASE_HREF } from "@angular/common";
 import { LOCALE_ID, NgModule } from "@angular/core";
@@ -26,18 +26,16 @@ import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core
 import { ButtonComponent } from './components/button/button.component';
 import { TimeDateComponent } from './components/time-date/time-date.component';
 import { ClimateComponent } from './components/climate/climate.component';
-
-import localePT from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { FooterHomeComponent } from './components/footer-home/footer-home.component';
 import { TimerComponent } from './components/timer/timer.component';
-registerLocaleData(localePT);
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputComponent } from './components/input/input.component';
-// import { MatIconModule } from "@angular/material/icon"; 
-    // MatIconModule,
+
+import localePT from '@angular/common/locales/pt';
+registerLocaleData(localePT);
+
 
 @NgModule({
   imports: [
