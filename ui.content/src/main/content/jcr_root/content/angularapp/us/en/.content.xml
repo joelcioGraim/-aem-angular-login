@@ -8,4 +8,5 @@
         sling:resourceType="angularapp/components/spa"
         pageTitle="Angular App"/>
     <home/>
+    <login/>
 </jcr:root>
