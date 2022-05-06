@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"div-container\">\n    <div class=\"city\">{{ locale }}</div>\n    <div class=\"container-icon-temp\">\n        <img id=\"icon-weather\" class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div class=\"div-container\">\n    <div class=\"city\">{{ locale }} - RS</div>\n    <div class=\"container-icon-temp\">\n        <img id=\"icon-weather\" class=\"icon\" [src]=\"icon\" alt=\"weather-icon\" /> \n        <div class=\"temp\">{{ weather }}°</div>\n    </div>\n</div>";
     /***/
   },
 
@@ -589,7 +589,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./components/input/input.component */
     "./src/app/components/input/input.component.ts");
 
-    Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25___default.a);
+    Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_25___default.a); // import { MatIconModule } from "@angular/material/icon"; 
+    // MatIconModule,
 
     var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
@@ -1228,7 +1229,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW5wdXQvaW5wdXQuY29tcG9uZW50LnNjc3MifQ== */";
+    __webpack_exports__["default"] = ".input__div {\n  width: 100%;\n}\n.input__div .mat-icon {\n  position: absolute;\n  padding: 18px;\n  width: 40px;\n}\n.input__input {\n  width: 100%;\n  height: 60px;\n  margin-bottom: 1rem;\n  background: transparent;\n  border: 1px solid #ffffff;\n  border-radius: 50px;\n  color: white;\n  text-indent: 4em;\n}\n::-moz-placeholder {\n  color: white;\n}\n:-ms-input-placeholder {\n  color: white;\n}\n::placeholder {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9pbnB1dC9DOlxcUHJvamV0b3NBZG9iZVxcYWVtLmFuZ3VsYXIubG9naW5cXHVpLmZyb250ZW5kL3NyY1xcYXBwXFxjb21wb25lbnRzXFxpbnB1dFxcaW5wdXQuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvaW5wdXQvaW5wdXQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0FDQ0o7QURDSTtFQUNJLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLFdBQUE7QUNDUjtBREdBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EseUJBQUE7RUFDQSxtQkFBQTtFQUNBLFlBQUE7RUFDQSxnQkFBQTtBQ0FKO0FER0E7RUFDSSxZQUFBO0FDQUo7QUREQTtFQUNJLFlBQUE7QUNBSjtBRERBO0VBQ0ksWUFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9pbnB1dC9pbnB1dC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbnB1dF9fZGl2IHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG5cclxuICAgIC5tYXQtaWNvbiB7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIHBhZGRpbmc6IDE4cHg7XHJcbiAgICAgICAgd2lkdGg6IDQwcHg7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5pbnB1dF9faW5wdXQge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDYwcHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xyXG4gICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZmZmZmZmO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTBweDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIHRleHQtaW5kZW50OiA0ZW07XHJcbn1cclxuXHJcbjo6cGxhY2Vob2xkZXIge1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG59XHJcbiIsIi5pbnB1dF9fZGl2IHtcbiAgd2lkdGg6IDEwMCU7XG59XG4uaW5wdXRfX2RpdiAubWF0LWljb24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHBhZGRpbmc6IDE4cHg7XG4gIHdpZHRoOiA0MHB4O1xufVxuXG4uaW5wdXRfX2lucHV0IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNjBweDtcbiAgbWFyZ2luLWJvdHRvbTogMXJlbTtcbiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNmZmZmZmY7XG4gIGJvcmRlci1yYWRpdXM6IDUwcHg7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgdGV4dC1pbmRlbnQ6IDRlbTtcbn1cblxuOjpwbGFjZWhvbGRlciB7XG4gIGNvbG9yOiB3aGl0ZTtcbn0iXX0= */";
     /***/
   },
 
@@ -1872,7 +1873,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     var environment = {
-      appRoot: "/content/angularapp/us/en/home.html",
+      appRoot: "/content/angularapp/us/en/login.html",
       production: false,
       publicUrl: '/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources'
     };

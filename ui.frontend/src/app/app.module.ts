@@ -36,7 +36,8 @@ registerLocaleData(localePT);
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputComponent } from './components/input/input.component';
-
+// import { MatIconModule } from "@angular/material/icon"; 
+    // MatIconModule,
 
 @NgModule({
   imports: [
@@ -69,7 +70,6 @@ import { InputComponent } from './components/input/input.component';
     FooterHomeComponent, 
     TimerComponent, 
     InputComponent,
-
   ],
   entryComponents: [
     PageComponent, 
