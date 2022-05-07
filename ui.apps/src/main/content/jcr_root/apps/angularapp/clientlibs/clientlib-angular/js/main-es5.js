@@ -136,6 +136,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/label/label.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/label/label.component.html ***!
+    \*********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsLabelLabelComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div *ngIf=\"isInvalidLogin\" class=\"label-error\">{{ label }}</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/page/page.component.html":
   /*!*******************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/page/page.component.html ***!
@@ -581,15 +601,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    var _components_label_label_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    /*! ./components/label/label.component */
+    "./src/app/components/label/label.component.ts");
+    /* harmony import */
+
+
+    var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
     /*! @angular/common/locales/pt */
     "./node_modules/@angular/common/locales/pt.js");
     /* harmony import */
 
 
-    var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_30__);
+    var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_31__);
 
-    Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_30___default.a);
+    Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_31___default.a);
 
     var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
@@ -604,8 +630,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         provide: _angular_core__WEBPACK_IMPORTED_MODULE_4__["LOCALE_ID"],
         useValue: 'pt-br'
       }],
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_25__["FooterHomeComponent"], _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_26__["TimerComponent"], _components_input_input_component__WEBPACK_IMPORTED_MODULE_29__["InputComponent"]],
-      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_25__["FooterHomeComponent"], _components_input_input_component__WEBPACK_IMPORTED_MODULE_29__["InputComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_25__["FooterHomeComponent"], _components_timer_timer_component__WEBPACK_IMPORTED_MODULE_26__["TimerComponent"], _components_input_input_component__WEBPACK_IMPORTED_MODULE_29__["InputComponent"], _components_label_label_component__WEBPACK_IMPORTED_MODULE_30__["LabelComponent"]],
+      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_10__["PageComponent"], _components_button_button_component__WEBPACK_IMPORTED_MODULE_22__["ButtonComponent"], _components_time_date_time_date_component__WEBPACK_IMPORTED_MODULE_23__["TimeDateComponent"], _components_climate_climate_component__WEBPACK_IMPORTED_MODULE_24__["ClimateComponent"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_25__["FooterHomeComponent"], _components_label_label_component__WEBPACK_IMPORTED_MODULE_30__["LabelComponent"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })], AppModule);
     /***/
@@ -627,7 +653,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".button-basic {\n  width: 100%;\n  height: 67px;\n  margin-top: 3em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vQzpcXFByb2pldG9zQWRvYmVcXGFlbS5hbmd1bGFyLmxvZ2luXFx1aS5mcm9udGVuZC9zcmNcXGFwcFxcY29tcG9uZW50c1xcYnV0dG9uXFxidXR0b24uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9uL2J1dHRvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vYnV0dG9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJ1dHRvbi1iYXNpYyB7ICAgIFxyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDY3cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAzZW07XHJcbn1cclxuIiwiLmJ1dHRvbi1iYXNpYyB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDY3cHg7XG4gIG1hcmdpbi10b3A6IDNlbTtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".button-basic {\n  width: 100%;\n  height: 67px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9idXR0b24vQzpcXFByb2pldG9zQWRvYmVcXGFlbS5hbmd1bGFyLmxvZ2luXFx1aS5mcm9udGVuZC9zcmNcXGFwcFxcY29tcG9uZW50c1xcYnV0dG9uXFxidXR0b24uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9uL2J1dHRvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFDQSxZQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2J1dHRvbi9idXR0b24uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnV0dG9uLWJhc2ljIHsgICAgXHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogNjdweDtcclxufVxyXG4iLCIuYnV0dG9uLWJhc2ljIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNjdweDtcbn0iXX0= */";
     /***/
   },
 
@@ -680,27 +706,36 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! src/app/services/local-storage.service */
     "./src/app/services/local-storage.service.ts");
+    /* harmony import */
+
+
+    var src_app_services_label_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! src/app/services/label.service */
+    "./src/app/services/label.service.ts");
 
     var ButtonComponent = /*#__PURE__*/function () {
-      function ButtonComponent(router, localStorageService) {
+      function ButtonComponent(router, localStorageService, labelService) {
         _classCallCheck(this, ButtonComponent);
 
         this.router = router;
         this.localStorageService = localStorageService;
+        this.labelService = labelService;
       }
 
       _createClass(ButtonComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          this.labelService.setInvalidLogin(false);
+        }
       }, {
         key: "clickGo",
         value: function clickGo() {
           if (this.router.url === '/content/angularapp/us/en/login.html' && this.loginValues() === true) {
             this.router.navigate(['/content/angularapp/us/en/home.html']);
-          }
-
-          if (this.router.url === '/content/angularapp/us/en/not-found.html') {
+          } else if (this.router.url === '/content/angularapp/us/en/not-found.html') {
             this.router.navigate(['/content/angularapp/us/en/login.html']);
+          } else {
+            this.labelService.setInvalidLogin(true);
           }
         }
       }, {
@@ -719,6 +754,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
       }, {
         type: src_app_services_local_storage_service__WEBPACK_IMPORTED_MODULE_4__["LocalStorageService"]
+      }, {
+        type: src_app_services_label_service__WEBPACK_IMPORTED_MODULE_5__["LabelService"]
       }];
     };
 
@@ -1362,6 +1399,112 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/label/label.component.scss":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/label/label.component.scss ***!
+    \*******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsLabelLabelComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".label-error {\n  font-family: \"Mark Pro\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 16px;\n  line-height: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9sYWJlbC9DOlxcUHJvamV0b3NBZG9iZVxcYWVtLmFuZ3VsYXIubG9naW5cXHVpLmZyb250ZW5kL3NyY1xcYXBwXFxjb21wb25lbnRzXFxsYWJlbFxcbGFiZWwuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbGFiZWwvbGFiZWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbGFiZWwvbGFiZWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGFiZWwtZXJyb3Ige1xyXG4gICAgZm9udC1mYW1pbHk6ICdNYXJrIFBybyc7XHJcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDIwcHg7XHJcbn1cclxuIiwiLmxhYmVsLWVycm9yIHtcbiAgZm9udC1mYW1pbHk6IFwiTWFyayBQcm9cIjtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBmb250LXdlaWdodDogNzAwO1xuICBmb250LXNpemU6IDE2cHg7XG4gIGxpbmUtaGVpZ2h0OiAyMHB4O1xufSJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/label/label.component.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/components/label/label.component.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: LabelComponent */
+
+  /***/
+  function srcAppComponentsLabelLabelComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LabelComponent", function () {
+      return LabelComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @adobe/aem-angular-editable-components */
+    "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var src_app_services_label_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/services/label.service */
+    "./src/app/services/label.service.ts");
+
+    var LabelComponent = /*#__PURE__*/function () {
+      function LabelComponent(labelService) {
+        _classCallCheck(this, LabelComponent);
+
+        this.labelService = labelService;
+        this.isInvalidLogin = false;
+      }
+
+      _createClass(LabelComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          var _this4 = this;
+
+          this.labelService.getInvalidLogin().subscribe(function (invalid) {
+            _this4.isInvalidLogin = invalid;
+          });
+        }
+      }]);
+
+      return LabelComponent;
+    }();
+
+    LabelComponent.ctorParameters = function () {
+      return [{
+        type: src_app_services_label_service__WEBPACK_IMPORTED_MODULE_3__["LabelService"]
+      }];
+    };
+
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])()], LabelComponent.prototype, "label", void 0);
+    LabelComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+      selector: 'app-label',
+      template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! raw-loader!./label.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/label/label.component.html"))["default"],
+      styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! ./label.component.scss */
+      "./src/app/components/label/label.component.scss"))["default"]]
+    })], LabelComponent);
+    Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["MapTo"])('angularapp/components/label')(LabelComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/components/model-manager.service.ts":
   /*!*****************************************************!*\
     !*** ./src/app/components/model-manager.service.ts ***!
@@ -1493,7 +1636,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/components/model-manager.service.ts");
 
     var PageComponent = /*#__PURE__*/_createClass(function PageComponent(route, modelManagerService) {
-      var _this4 = this;
+      var _this5 = this;
 
       _classCallCheck(this, PageComponent);
 
@@ -1502,9 +1645,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       this.modelManagerService.getData({
         path: this.route.snapshot.data.path
       }).then(function (data) {
-        _this4.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
-        _this4.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
-        _this4.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
+        _this5.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
+        _this5.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
+        _this5.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
       });
     });
 
@@ -1731,26 +1874,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "start",
         value: function start() {
-          var _this5 = this;
+          var _this6 = this;
 
           var time = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
           this.currentValue = this.startAt;
           this.changeDetector.detectChanges();
           this.currentSubscription = time.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["take"])(this.startAt), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (v) {
-            return _this5.startAt - (v + 1);
+            return _this6.startAt - (v + 1);
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["finalize"])(function () {
-            if (!_this5.reset) {
-              _this5.stop();
+            if (!_this6.reset) {
+              _this6.stop();
 
-              _this5.localStorageService.clear();
+              _this6.localStorageService.clear();
 
-              _this5.router.navigate(['/content/angularapp/us/en/not-found.html']);
+              _this6.router.navigate(['/content/angularapp/us/en/not-found.html']);
             }
           })).subscribe(function (value) {
-            _this5.reset = false;
-            _this5.currentValue = value;
+            _this6.reset = false;
+            _this6.currentValue = value;
 
-            _this5.changeDetector.detectChanges();
+            _this6.changeDetector.detectChanges();
           });
         }
       }, {
@@ -1784,6 +1927,72 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./timer.component.scss */
       "./src/app/components/timer/timer.component.scss"))["default"]]
     })], TimerComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/label.service.ts":
+  /*!*******************************************!*\
+    !*** ./src/app/services/label.service.ts ***!
+    \*******************************************/
+
+  /*! exports provided: LabelService */
+
+  /***/
+  function srcAppServicesLabelServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LabelService", function () {
+      return LabelService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+
+    var LabelService = /*#__PURE__*/function () {
+      function LabelService() {
+        _classCallCheck(this, LabelService);
+
+        this.invalidLogin = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](false);
+      }
+
+      _createClass(LabelService, [{
+        key: "setInvalidLogin",
+        value: function setInvalidLogin(isInvalid) {
+          this.invalidLogin.next(isInvalid);
+        }
+      }, {
+        key: "getInvalidLogin",
+        value: function getInvalidLogin() {
+          return this.invalidLogin.asObservable();
+        }
+      }]);
+
+      return LabelService;
+    }();
+
+    LabelService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+      providedIn: 'root'
+    })], LabelService);
     /***/
   },
 

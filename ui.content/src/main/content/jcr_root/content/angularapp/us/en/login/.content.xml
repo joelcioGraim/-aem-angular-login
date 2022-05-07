@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-05-06T17:40:33.380-03:00"
+        cq:lastModified="{Date}2022-05-07T12:39:14.902-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/angularapp/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -122,28 +122,19 @@
                                 offset="2"
                                 width="3"/>
                         </cq:responsive>
-                        <text
-                            cq:styleIds="[1651868680053]"
-                            jcr:created="{Date}2022-05-06T17:19:25.919-03:00"
+                        <label
+                            jcr:created="{Date}2022-05-07T12:38:13.951-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-05-06T17:40:33.377-03:00"
+                            jcr:lastModified="{Date}2022-05-07T12:38:40.819-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="angularapp/components/text"
-                            text="&lt;p>Ops, usuário ou senha inválidos. Tente novamente!&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="3"/>
-                            </cq:responsive>
-                        </text>
+                            sling:resourceType="angularapp/components/label"
+                            label="Ops, usuário ou senha inválidos. Tente novamente!"/>
                         <button
                             cq:styleIds="[1651864940630]"
-                            jcr:created="{Date}2022-05-06T17:20:52.502-03:00"
+                            jcr:created="{Date}2022-05-07T12:38:59.815-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-05-06T17:21:03.723-03:00"
+                            jcr:lastModified="{Date}2022-05-07T12:39:14.898-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="angularapp/components/button"

@@ -32,6 +32,7 @@ import { TimerComponent } from './components/timer/timer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputComponent } from './components/input/input.component';
+import { LabelComponent } from './components/label/label.component';
 
 import localePT from '@angular/common/locales/pt';
 registerLocaleData(localePT);
@@ -67,7 +68,8 @@ registerLocaleData(localePT);
     ClimateComponent, 
     FooterHomeComponent, 
     TimerComponent, 
-    InputComponent,
+    InputComponent, 
+    LabelComponent,
   ],
   entryComponents: [
     PageComponent, 
@@ -75,7 +77,7 @@ registerLocaleData(localePT);
     TimeDateComponent, 
     ClimateComponent, 
     FooterHomeComponent,
-    InputComponent,
+    LabelComponent,
   ],
   bootstrap: [AppComponent],
 })
