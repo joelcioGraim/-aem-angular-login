@@ -75,7 +75,7 @@
                     </plugins>
                 </policy_651483963895698>
                 <policy_52478246449800
-                    jcr:lastModified="{Date}2022-05-06T11:31:37.564-03:00"
+                    jcr:lastModified="{Date}2022-05-09T08:55:56.344-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Image Styles"
@@ -138,6 +138,11 @@
                                     cq:styleClasses="home-img-ball"
                                     cq:styleId="1651839121982"
                                     cq:styleLabel="Medium size"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="logo-mobile"
+                                    cq:styleId="1652097345402"
+                                    cq:styleLabel="Logo Mobile"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
@@ -644,6 +649,29 @@
                     </cq:styleGroups>
                 </policy_1651864918785>
             </button>
+            <input jcr:primaryType="nt:unstructured">
+                <policy_1652096298477
+                    jcr:lastModified="{Date}2022-05-09T08:38:58.606-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Input Styles"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Input Styles"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="inputs-behavior"
+                                    cq:styleId="1652096313659"
+                                    cq:styleLabel="Response"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1652096298477>
+            </input>
         </components>
     </angularapp>
     <wcm jcr:primaryType="nt:unstructured">

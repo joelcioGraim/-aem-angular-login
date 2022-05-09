@@ -20,7 +20,7 @@ export class FooterHomeComponent implements OnInit, AfterViewInit {
     ngOnInit(): void {}
 
     ngAfterViewInit(): void {
-        this.counter.startAt = 600;
+        this.counter.startAt = 20;
         this.counter.start();
     }
 

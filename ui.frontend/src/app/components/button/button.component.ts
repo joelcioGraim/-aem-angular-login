@@ -35,7 +35,8 @@ export class ButtonComponent implements OnInit {
   }
 
   private loginValues(): boolean {
-    const isChecked = this.localStorageService.get('username') && this.localStorageService.get('password') ? true : false;
+    const isChecked = (this.localStorageService.get('username') && this.localStorageService.get('password')) && 
+    (this.localStorageService.get('username') === 'admin' && this.localStorageService.get('password') === 'admin') ? true : false;
     return isChecked;
   }
 

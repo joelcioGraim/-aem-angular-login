@@ -43,8 +43,8 @@ export class TimerComponent implements OnInit {
                       this.stop();
                       this.localStorageService.clear();
                       this.router.navigate([
-                        '/content/angularapp/us/en/not-found.html',
-                        //   '/content/angularapp/us/en/login.html',
+                        // '/content/angularapp/us/en/not-found.html',
+                          '/content/angularapp/us/en/login.html',
                       ]);
                   }
               })
